@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden
+}
+
+
+.custom-border {
+  @apply border-2 border-gray;
+}
+
+.padding-default { 
+  @apply p-5 lg:p-10 
+}
